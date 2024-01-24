@@ -1,0 +1,14 @@
+Authors: Justin Birdsall
+	 Ricky (Richard) Roy
+
+Thinking: 
+
+1. in order to draw this you can set the canvas color to white
+
+2.from the point 0,0 on the canvas use triangle fan to draw a circle for the "head" of the face
+
+3.try to find a center point for your vertex in quadrant 1 and quadrant 2 again using triangle_fan to make two smaller circles 
+(using a different color from the previous drawing)for the eyes 
+
+4.with the face and eyes drawn we just have to use triangle_strip to put two triangles together in order to form a rectangular shape
+for the mouth 
